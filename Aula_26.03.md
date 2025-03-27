@@ -10,17 +10,17 @@ Buscamos o valor de $d$ que anula a função $f$, então, observando os resultad
 função muda de sinal.
 
 ## Para Calcular, usaremos o código:
-//  for d in range (0,21):
-//    y = 1.047*d**3 - 31.415*d**2 + 2672.369
-//    print(d, y)
+  for d in range (0,21):
+   y = 1.047*d**3 - 31.415*d**2 + 2672.369
+   print(d, y)
 
 ## Refinando, usaremos o código:
-//  for i in range(0,11):
-//    d = 11 + (i/10)
-//    y = 1.047*d**3-31.415*d**2+2672.369
-//    print('f(',d,')=', round(y,3))
+ for i in range(0,11):
+   d = 11 + (i/10)
+   y = 1.047*d**3-31.415*d**2+2672.369
+   print('f(',d,')=', round(y,3))
 
-//  for i in range(0,11):
-//      d = 11.86 + (i/1000)
-//      y = 1.047*d**3-31.415*d**2+2672.369
-//      print('f(',d,')=', round(y,3))
+ for i in range(0,11):
+     d = 11.86 + (i/1000)
+     y = 1.047*d**3-31.415*d**2+2672.369
+     print('f(',d,')=', round(y,3))
