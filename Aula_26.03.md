@@ -29,6 +29,7 @@ função muda de sinal.
 ## Exemplo 2.1.5
 Encontrando a raiz de $A_S=\frac{1}{2}r^2(\theta-sen\theta)$ com $r=1$ e $A_s = 3.5$.
 
+# Código #
 from scipy.optimize import fsolve
 import numpy as np
 
@@ -43,6 +44,7 @@ print (sol)
 A equação $f(x)=e^x-sen(x)-2=0$ pode ser escrita como $e^x=senx+2$ então, esboçando os gráficos de $f_1(x)=e^x$ e $f_2(x)=senx+2$, observamos que 
 a raiz procurada está entre  $0.5$ e $1.5$, como pode ser visto no gráfico a seguir.
 
+# Código #
 import numpy as np
 import matplotlib.pyplot as plt
 x = np.linspace(0,2,51)
