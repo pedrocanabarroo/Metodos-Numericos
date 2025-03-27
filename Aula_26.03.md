@@ -52,3 +52,5 @@ y1 = np.exp(x)
 y2 = np.sin(x) + 2
 plt.plot(x,y1)
 plt.plot(x,y2)
+
+# Fazer exercícios no final do caderno 2.1
